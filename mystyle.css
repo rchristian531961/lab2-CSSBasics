@@ -1,0 +1,86 @@
+/* I. Selectors */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+      /* Put styles for sections 1.1, 1.2, 1.3 and 1.4 here */
+      article{
+        margin:20px 0;
+        padding:20px;
+        border:1px solid black;
+      }
+
+      .style-me1{
+        color:red;
+      }
+
+      #style-me2{
+        color:blue;
+      }
+
+      .style-me1#style-me2{
+        color: purple;
+      }
+      
+      /* Put styles for sections 1.2, 1.3, 1.4 here */
+      .my-descendants-are-styled{
+        background-color:red;
+      }
+
+      .my-children-are-styled{
+        background-color:red;
+      }
+
+      /* II. Box model and common properties */
+      .box{
+        margin:10px;
+        padding:10px;
+        width:80%;
+        height:auto;
+        border:solid 10px purple;
+        box-sizing: border-box; /*box sizing solution*/
+        overflow:auto;
+        border-radius:20px;
+
+        background-image:url("myImages/Shadow.png");
+        background-size:contain;
+        background-repeat:no-repeat;
+        background-position:center;
+      }
+/*Solution of observation: */
+
+      /* III. Position */
+      .position-absolute{
+        position:absolute;
+        top:0px;
+        right:0px;
+        z-index:-1;
+
+        /* */
+      }
+      .position-relative{
+        position:relative;
+      }
+      .position-sticky{
+        position:sticky;
+        border:solid black 30px;
+        bottom:10px;
+      }
+      /* IV. Styling text */
+      .text-style{
+        color:purple;
+        font-size:large;
+        line-height:1.6;
+        font-weight:bold;
+        font-family:Roboto;
+        text-align:center;
+        letter-spacing:5px;
+        text-transform:uppercase;
+        text-decoration:underline overline;
+      }
+
+      /*V. Styling links*/
+
+      /* VI. calc() */
+      .calc-style{
+        width: calc(100vw-100px);
+      }
+
+
