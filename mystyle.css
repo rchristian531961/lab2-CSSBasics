@@ -77,6 +77,23 @@
       }
 
       /*V. Styling links*/
+      a{
+        color:purple;
+        font-size:large;
+        font-weight:bold;
+        border:solid 10px blue;
+      }
+
+      a:hover{
+        background-color:yellow;
+      }
+
+      a:active{
+        background-color:aquamarine;
+      }
+      
+      
+
 
       /* VI. calc() */
       .calc-style{
